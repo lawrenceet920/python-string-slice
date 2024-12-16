@@ -4,10 +4,10 @@
 # slicng strings
 
 # To slice a string you use string notation
-var = 'I am a string!'
-print(var[2:4])
+my_string = 'I am a string!'
+print(my_string[2:4])
 
 # The string notation is EXCLUSIVE so 2 is not read (4 is)
 # It also is based on index numbers (0 1 2)
-var = '0123456789'
-print(var[2:-4])
+my_string = '0123456789'
+print(my_string[2:-4])
